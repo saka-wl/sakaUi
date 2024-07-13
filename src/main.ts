@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import './Test/style.css'
+import App from './Test/App.vue'
+import sakaUi from "./components/index"
 
-createApp(App).mount('#app')
+createApp(App).use(sakaUi).mount('#app')
